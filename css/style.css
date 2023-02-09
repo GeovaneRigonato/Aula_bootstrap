@@ -4,6 +4,18 @@ body {
 
 .navbar {
     background-color: #E0E0E0;
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    position        : fixed;
+    width           : 100%;
+}
+.itens{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    padding: 0 20px;
 }
 
 .quem-somos {
@@ -31,4 +43,16 @@ body {
 .bg-footer {
     background-color: black;
     color           : white;
+    padding-bottom  : 50px;
+    padding-top     : 50px;
+
+}
+
+footer p{
+    height          : 100%;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    margin          : 0;
+
 }
